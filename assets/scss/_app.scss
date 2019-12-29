@@ -1,0 +1,19 @@
+// NOTE: only import variables/placeholders/mixins here, raw SCSS should go inside their respective 'components' files
+
+// import typographies
+@import 'partials/_typography';
+
+// import colors
+@import 'partials/_colors';
+
+// import placeholders
+@import 'partials/_placeholders';
+
+// import placeholders
+@import 'partials/_mixins';
+
+// import Transitions
+@import 'partials/_transitions';
+
+// import Animations
+@import 'partials/_animations';

@@ -1,0 +1,57 @@
+// general page loader
+@keyframes rotateCircles {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+// hello emoji shake
+@keyframes hello-shake {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+// back arrow bounce
+@keyframes back-arrow-bounce {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(5px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+}
+
+// infinite right slider for Instagram posts
+@keyframes slideInstragramPostsRight {
+  0% {
+    margin-right: 0;
+  }
+
+  100% {
+    margin-right: -5690px;
+  }
+}
+
+// infinite left slider for Instagram posts
+@keyframes slideInstragramPostsLeft {
+  0% {
+    margin-left: 0;
+  }
+
+  100% {
+    margin-left: -5690px;
+  }
+}

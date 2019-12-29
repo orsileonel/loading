@@ -1,0 +1,23 @@
+// general page loader
+.loader-enter-active,
+.loader-leave-active {
+  transition: all 0.5s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+.loader-enter {
+  transform: translateX(-100%);
+}
+
+.loader-leave-active {
+  transform: translateX(100%);
+}
+
+// general page and layout transition
+.layout-enter-active {
+  transition: all .5s ease .2s;
+}
+
+.layout-enter {
+  @apply opacity-0;
+  transform: translateY(5rem);
+}

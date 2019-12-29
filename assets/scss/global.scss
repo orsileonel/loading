@@ -1,0 +1,79 @@
+::selection {
+  @apply bg-dark-yellow
+  text-dark-gray;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  @apply bg-light-gray;
+
+  h1,
+  h2 {
+    @apply text-3xl
+    font-medium
+    text-dark-gray
+    leading-tight
+    text-center
+    mb-40;
+
+    @screen md {
+      @apply text-5xl;
+    }
+
+    &.section__title {
+      @apply mt-16
+      mb-6;
+    }
+  }
+
+  h3 {
+    @apply text-xl
+    font-semibold;
+  }
+
+  p {
+    @apply text-lg
+    font-light
+    mb-8;
+
+    @screen md {
+      @apply text-xl;
+    }
+
+    @screen lg {
+      @apply text-2xl;
+    }
+  }
+
+  a {
+    transition: all 120ms linear;
+
+    &.button--rounded {
+      @apply text-lg
+      border-2
+      border-white;
+      border-radius: 7px;
+      padding: 4px 20px;
+
+      @screen lg {
+        @apply text-xl;
+      }
+
+      &:hover {
+        @apply bg-white
+        text-dark-gray;
+      }
+    }
+  }
+
+  .text-link {
+    @apply border-b-2
+    border-dark-yellow;
+    transition: all 120ms linear;
+
+    &:hover {
+      @apply bg-dark-yellow
+      text-dark-gray;
+    }
+  }
+}
