@@ -16,7 +16,7 @@
     "@glidejs/glide": "^3.4.1",
     "@nuxtjs/axios": "^5.9.0",
     "@nuxtjs/google-analytics": "^2.2.2",
-    "gsap": "^3.0.4",
+    "gsap": "^3.6.0",
     "nuxt": "^2.11.0",
     "nuxt-i18n": "^6.4.1"
   },
